@@ -223,7 +223,7 @@ with aba4:
     c1, c2 = st.columns([1, 1])
     with c1:
         n_ev = st.slider("Motos adulteradas passando por noite (hoje)", 0, 300, 80)
-        red = st.slider("Redução esperada  com o radar (multas + efeito educativo) %", 0, 100, 60)
+        red = st.slider("Redução esperada com o radar (multas + efeito educativo) %", 0, 100, 60)
         with st.expander("Mais parâmetros"):
             L_fundo = st.slider("Ruído de fundo noturno na fachada (dB)", 45, 65, 55)
             L_ev = st.slider("Barulho de uma passagem na fachada (dB)", 75, 100, 88)
