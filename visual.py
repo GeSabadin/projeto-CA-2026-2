@@ -11,6 +11,7 @@ from matplotlib.patches import FancyBboxPatch, Patch, Rectangle
 
 import radar_core as rc
 
+
 # cores de status (sempre acompanhadas de texto, nunca só a cor)
 VERDE, AMARELO, VERMELHO = "#0ca30c", "#fab219", "#d03b3b"
 STATUS = {
