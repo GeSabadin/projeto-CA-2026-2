@@ -7,6 +7,7 @@ import paho.mqtt.client as mqtt
 TOPICO_PADRAO = "cwb/radar-ruido/{radar_id}/eventos"
 
 
+
 def _cliente(nome):
     try:
         return mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, client_id=nome)

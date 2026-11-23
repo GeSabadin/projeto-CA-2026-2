@@ -14,6 +14,7 @@ sem reflexoes nas fachadas, niveis medidos na banda 300-3000 Hz (aprox. dB(A)).
 """
 from __future__ import annotations
 
+
 import datetime as dt
 import uuid
 from dataclasses import dataclass, field

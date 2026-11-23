@@ -10,6 +10,7 @@ from pathlib import Path
 import radar_core as rc
 import visual
 
+
 if "--avaliar" in sys.argv:
     n = int(sys.argv[sys.argv.index("--avaliar") + 1])
     r = rc.avaliar(n)

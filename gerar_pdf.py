@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyBboxPatch, Circle
 
+
 PROJ = Path(r"C:\UTFPR\CA\PROJETO")
 OUT = PROJ / "saida" / "fig_pdf"
 OUT.mkdir(parents=True, exist_ok=True)
