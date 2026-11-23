@@ -202,6 +202,9 @@ with aba3:
         st.markdown(f"**{r['radar_id']}** · {r['via']}")
 
 # ---------------------------------------------------------------- aba 4: resultados
+
+
+
 with aba4:
     st.markdown("### O sistema acerta?")
     st.markdown("Testamos **100 cenas aleatórias** com duas motos (uma adulterada e uma normal, às vezes lado a lado).")
