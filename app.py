@@ -5,6 +5,15 @@ from pathlib import Path
 
 import streamlit as st
 
+# Permite rodar também com "python app.py": se não estiver dentro do Streamlit, ele se relança via "streamlit run".
+if __name__ == "__main__":
+    from streamlit import runtime
+    if not runtime.exists():
+        import sys
+        from streamlit.web import cli
+        sys.argv = ["streamlit", "run", __file__]
+        sys.exit(cli.main())
+
 import radar_core as rc
 import visual as vz
 
