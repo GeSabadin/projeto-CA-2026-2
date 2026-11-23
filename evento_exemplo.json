@@ -1,0 +1,43 @@
+{
+  "id_evento": "eb48b629-fa43-4630-b47d-dbdac78027ba",
+  "radar_id": "CWB-R01",
+  "local": {
+    "via": "Av. Sete de Setembro (Batel)",
+    "lat": -25.44,
+    "lon": -49.278
+  },
+  "timestamp": "2026-11-15T21:03:01-03:00",
+  "nivel_db_7m5": 94.0,
+  "limite_db": 80.0,
+  "excesso_db": 14.0,
+  "banda_hz": [
+    300.0,
+    3000.0
+  ],
+  "direcao_graus": 57.3,
+  "trajetoria_graus": [
+    158.7,
+    153.8,
+    146.3,
+    134.0,
+    113.2,
+    83.9,
+    57.3,
+    40.3
+  ],
+  "classificacao": "escapamento_adulterado_provavel",
+  "confianca": 0.75,
+  "status": "AUTUACAO_SUGERIDA",
+  "motivo": "nivel acima do limite + rastreamento consistente",
+  "veiculo": {
+    "placa": "SIM0A01",
+    "tipo": "moto",
+    "distancia_m": 3.5,
+    "velocidade_kmh": 45
+  },
+  "evidencias": {
+    "foto": "evidencias/eb48b629-fa43-4630-b47d-dbdac78027ba.png",
+    "audio": "evidencias/eb48b629-fa43-4630-b47d-dbdac78027ba.wav"
+  },
+  "versao": "sim-1.0"
+}
